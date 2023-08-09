@@ -1,0 +1,23 @@
+.title {
+  color: var(--182149, #182149);
+  font-family: HeliosExt;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+
+  span {
+    color: var(--2898-f-5, #2898f5);
+  }
+
+  &_white {
+    padding-top: 100px;
+    color: #ffff;
+    font-size: 72px;
+    span {
+      color: #fff;
+      border-radius: 49.5px;
+      padding: 12px 30px;
+      border: 2px solid var(--ffffff, #fff);
+    }
+  }
+}

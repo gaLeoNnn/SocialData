@@ -1,0 +1,144 @@
+@media (max-width: 1600px) {
+  .promo {
+    border-radius: 0px 0px 80px 80px;
+    &__bg-blue {
+      border-radius: 0px 0px 80px 80px;
+      left: -20px;
+    }
+  }
+
+  .partners {
+    padding-top: 60px;
+    padding-bottom: 90px;
+  }
+  .title_white {
+    padding-top: 70px;
+  }
+  .data {
+    height: 1000px;
+  }
+  .container {
+    padding: 0 15px;
+  }
+  .title_white {
+    font-size: 52px;
+    padding-right: 10px;
+  }
+
+  .slider-btns {
+    margin-top: 30px;
+  }
+  .btn-left {
+    img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  .btn-right {
+    img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  .display {
+    &__column {
+      height: 525px;
+    }
+    &__descr {
+      font-size: 32px;
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .slider-wrapper {
+    margin-left: 10px;
+    margin-top: 27px;
+  }
+  .data {
+    height: 900px;
+  }
+  .partners {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    .title_white {
+      font-size: 42px;
+      padding-right: 10px;
+    }
+  }
+
+  .title_white {
+    padding-top: 50px;
+  }
+  .slider-btns {
+    margin-top: 30px;
+  }
+  .btn-left {
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  .btn-right {
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  .display {
+    &__column {
+      height: 500px;
+    }
+    &__descr {
+      font-size: 26px;
+    }
+  }
+}
+@media (max-width: 617px) {
+  .partners {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    &__item {
+      margin-top: 24px;
+      width: 115px;
+      height: 64px;
+      img {
+        width: 44.116px;
+        height: 45.568px;
+      }
+    }
+  }
+  .partners .title {
+    font-size: 24px;
+  }
+  .data {
+    height: 596px;
+    border-radius: 30px;
+  }
+  .slider-wrapper {
+    margin-left: 10px;
+    margin-top: 27px;
+  }
+  .swiper-slide {
+    max-width: 290px !important;
+    height: 362px;
+  }
+  .title_white {
+    font-size: 24px;
+    span {
+      padding: 2px 12px;
+    }
+  }
+  .display {
+    &__column {
+      border-radius: 25px;
+    }
+    &__descr {
+      font-size: 20px;
+      span {
+        margin-top: 10px;
+        font-size: 14px;
+      }
+    }
+  }
+}

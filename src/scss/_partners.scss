@@ -1,0 +1,24 @@
+.partners {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  &__box {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  &__item {
+    margin-top: 50px;
+    width: 232px;
+    height: 125px;
+    border-radius: 37px;
+    opacity: 0.8999999761581421;
+    background: #e3f1fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+}

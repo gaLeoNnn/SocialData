@@ -1,0 +1,22 @@
+.btn-link {
+  border-radius: 31px;
+  padding: 15px 26px;
+  border: 1px solid var(--2898-f-5, #2898f5);
+  // position: relative;
+  margin-left: 111px;
+  color: #2898f5;
+  &_promo {
+    padding: 38px 40px;
+    position: relative;
+    border-radius: 73px;
+    font-size: 20px;
+    margin-left: 25px;
+
+    img {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 5px;
+    }
+  }
+}

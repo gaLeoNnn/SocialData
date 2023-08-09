@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'HeliosExt';
+    src: url('HeliosExt.eot');
+    src: url('HeliosExt.eot?#iefix') format('embedded-opentype'),
+        url('HeliosExt.woff2') format('woff2'),
+        url('HeliosExt.woff') format('woff'),
+        url('HeliosExt.ttf') format('truetype'),
+        url('HeliosExt.svg#HeliosExt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

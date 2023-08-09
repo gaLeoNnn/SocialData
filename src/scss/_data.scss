@@ -1,0 +1,44 @@
+.data {
+  height: 1270px;
+  background: radial-gradient(
+      73.33% 22.16% at 29.45% 91.69%,
+      #45d2ff 0%,
+      rgba(69, 210, 255, 0) 100%
+    ),
+    radial-gradient(
+      134.67% 69.88% at 9.66% 82.03%,
+      #985df1 0%,
+      rgba(171, 116, 255, 0) 100%
+    ),
+    radial-gradient(
+      63.24% 60.56% at 82.86% 30.4%,
+      #19d2fb 0%,
+      rgba(25, 210, 251, 0) 100%
+    ),
+    #2898f5;
+
+  border-radius: 120px;
+  box-shadow: 0px 0px 34px 0px rgba(255, 255, 255, 0.25) inset,
+    0px 4px 13px 0px rgba(255, 255, 255, 0.15) inset;
+  position: relative;
+  z-index: -2;
+  &__spot {
+    position: absolute;
+    z-index: -1;
+    max-width: 1000px;
+    img {
+      width: 100%;
+      border-radius: 120px;
+    }
+  }
+  &__spot2 {
+    position: absolute;
+    max-width: 500px;
+
+    z-index: -1;
+    left: 50%;
+    img {
+      width: 100%;
+    }
+  }
+}
