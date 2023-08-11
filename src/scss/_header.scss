@@ -59,3 +59,13 @@
   align-items: center;
   transform: translateY(-50%);
 }
+.button {
+  border-radius: 63px;
+  background: var(--2898-f-5, #2898f5);
+  padding: 16px 42px 15px 42px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

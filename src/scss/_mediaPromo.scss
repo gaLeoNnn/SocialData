@@ -1,4 +1,7 @@
-@media (max-width: 1600px) {
+@media (max-width: 1680px) {
+  .header {
+    padding-bottom: 80px;
+  }
   .menu {
     &__items {
       gap: 30px;
@@ -11,34 +14,30 @@
     font-size: 54px;
   }
   .rectangle {
-    right: -178px;
+    right: -160px;
+    // font-size: 18px;
   }
   .rectangle-vector {
     right: 109px;
     top: 40px;
   }
-  .btn-link_promo {
-    display: block;
-    width: 400px;
-    margin-left: 0;
-    margin-top: 20px;
-    padding: 38px 35px;
-    text-align: center;
-    img {
-      left: 30px;
+  .btn-link {
+    &_promo {
+      margin-left: 0;
+      margin-top: 20px;
     }
   }
   .promo {
+    min-height: 800px;
     &__bg-vector {
       max-width: 900px;
     }
-  }
-  .btn_promo {
-    width: 400px;
-    img {
-      right: 70px;
+    &__btns {
+      display: flex;
+      flex-direction: column;
     }
   }
+
   .img-scrin {
     max-width: 850px;
   }
@@ -60,13 +59,15 @@
     right: -80px;
     width: 200px;
     z-index: 1;
+    padding: 15px 10px;
+    font-size: 26px;
   }
   .rectangle-vector {
     right: 100px;
     top: 40px;
   }
   .promo {
-    height: 1000px;
+    min-height: 800px;
     &__bg-vector {
       max-width: 900px;
     }
@@ -74,33 +75,24 @@
   .select-box {
     padding: 12px 12px;
   }
+  .button {
+    padding: 12px 29px 12px 29px;
+  }
   .btn {
-    padding: 10px 28px;
+    &_promo {
+      font-size: 16px;
+      padding: 25px 35px;
+    }
   }
+
   .btn-link {
-    margin-left: 50px;
-    font-size: 12px;
-  }
-  .btn_promo {
-    padding: 24px 32px;
-    font-size: 16px;
-    img {
-      width: 10px;
-      right: 70px;
+    margin-left: 0px;
+    &_promo {
+      font-size: 16px;
+      padding: 23px 35px;
     }
   }
-  .btn-link_promo {
-    font-size: 12px;
-    display: block;
-    margin-left: 0;
-    margin-top: 20px;
-    padding: 25px 15px;
-    text-align: center;
-    img {
-      width: 20px;
-      left: 65px;
-    }
-  }
+
   .img-scrin {
     max-width: 800px;
     bottom: 0;
@@ -129,40 +121,7 @@
       font-size: 36px;
     }
   }
-  .btn-link {
-    border-radius: 0px;
-    padding: 0 0;
-    border: none;
-    margin-left: 0px;
-    color: white;
-  }
-  .btn-link_promo {
-    border-radius: 31px;
-    padding: 25px 43px;
-    border: 1px solid var(--2898-f-5, #2898f5);
-    position: relative;
-    margin-left: 0px;
-    width: 345px;
-    color: #2898f5;
-  }
 
-  .btn {
-    border-radius: 93px;
-    border: 1px solid var(--2898-f-5, #2898f5);
-    background-color: #e3f1fe;
-    color: #2898f5;
-    margin-right: 30px;
-
-    &_promo {
-      border-radius: 63px;
-      background: var(--2898-f-5, #2898f5);
-      padding: 22px 46px;
-      color: #ffffff;
-      margin-right: 0;
-      cursor: pointer;
-      width: 345px;
-    }
-  }
   .burger {
     display: block;
   }
@@ -174,6 +133,7 @@
     padding-top: 25px;
   }
   .promo {
+    padding-bottom: 20px;
     &__box {
       margin: 0 auto;
       max-width: 600px;
@@ -205,8 +165,10 @@
     display: none;
   }
   .rectangle {
-    top: 100px;
+    top: 118px;
     left: 0;
+    font-size: 24px;
+    height: 95px;
   }
   .title {
     font-size: 38px;
@@ -218,43 +180,77 @@
       width: 100%;
     }
   }
-  .shadow {
-    bottom: -10px;
+  .shadow-scrin {
+    top: 10px;
   }
 }
 
 @media (max-width: 768px) {
-  .promo__bg-vector {
-    height: 200px;
-  }
   .promo__bg-blue {
     img {
       height: 200px;
     }
   }
   .rectangle {
-    width: 124.28px;
-    height: 63.003px;
-    top: 140px;
+    top: 97px;
+    width: 160px;
+    height: 70px;
+    font-size: 18px;
     z-index: 1;
     left: 100px;
+    padding: 13px;
+    padding-top: 12px;
+
+    span {
+      font-size: 14px;
+    }
+  }
+  .button {
+    &_login {
+      border-radius: 93px;
+      border: 1px solid var(--2898-f-5, #2898f5);
+      background: #e3f1fe;
+      color: var(--2898-f-5, #2898f5);
+      font-size: 13px;
+      border-radius: 93px;
+      border: 1px solid var(--2898-f-5, #2898f5);
+      margin-right: 10px;
+    }
   }
   .btn {
-    margin-right: 15px;
+    font-size: 14px;
+
+    &_promo {
+      img {
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+
+  .btn-link {
+    font-size: 14px;
+    &_promo {
+      img {
+        width: 17px;
+        height: 17px;
+      }
+    }
   }
   .logo {
     margin-right: 60px;
   }
   .promo {
+    min-height: 651px;
     &__box {
       max-width: 600px;
       margin-bottom: 38px;
     }
     .title {
-      font-size: 36px;
+      font-size: 30px;
     }
     &__bg-vector {
-      top: 200px;
+      top: 185px;
     }
     &__bg-pink {
       top: 20%;
@@ -265,18 +261,43 @@
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 460px) {
   .header {
     padding-bottom: 40px;
     padding-top: 15px;
   }
-
+  .rectangle {
+    transform: rotate(6.021deg);
+    border-radius: 20px;
+    background: var(
+      --27-aaf-43-paints,
+      radial-gradient(
+        77.62% 77.62% at 3.36% 85.16%,
+        #10e8f5 0%,
+        rgba(16, 232, 245, 0) 100%
+      ),
+      radial-gradient(
+        88.4% 88.4% at 93.99% 23.32%,
+        #6f42ef 0%,
+        rgba(219, 20, 236, 0) 100%
+      ),
+      #27aaf4
+    );
+  }
   .img-scrin {
     margin-bottom: 35px;
   }
+  .shadow-scrin {
+    top: 5px;
+    left: 5px;
+  }
   .promo {
-    height: 620px;
+    min-height: 608px;
     border-radius: 0px 0px 50px 50px;
+
+    &__btns {
+      width: 100%;
+    }
 
     &__bg-vector {
       top: 150px;
@@ -286,11 +307,18 @@
     }
   }
   .rectangle {
+    top: 79px;
+    left: 18px;
     width: 124.28px;
     height: 63.003px;
-    top: 90px;
-    z-index: 1;
-    left: 40px;
+    transform: rotate(6.021deg);
+    flex-shrink: 0;
+    font-size: 13px;
+    border-radius: 20px;
+
+    span {
+      font-size: 13px;
+    }
   }
   .burger {
     margin-left: 5px;
@@ -298,25 +326,15 @@
   .btn {
     margin-right: 0;
     &_promo {
-      width: 345px;
       padding: 22px 25px;
       font-size: 14px;
-      img {
-        right: 80px;
-        transform: translateY(-50%);
-      }
     }
   }
   .btn-link {
     &_promo {
       margin-top: 10px;
-      width: 345px;
-      padding: 22px 25px;
+      padding: 22px 53px;
       font-size: 14px;
-
-      img {
-        left: 55px;
-      }
     }
   }
   .logo {

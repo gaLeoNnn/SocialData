@@ -1,0 +1,178 @@
+.advantages {
+  position: relative;
+  &__column {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 60px;
+  }
+
+  &__dot {
+    position: absolute;
+    pointer-events: none;
+    right: 50px;
+    margin-top: -400px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__item {
+    padding: 0 40px;
+    padding-top: 135px;
+    margin-top: 63px;
+    position: relative;
+    width: 328px;
+    height: 380px;
+    border-radius: 50px;
+    border: 1px solid rgba(241, 249, 255, 0.2);
+    background: rgba(40, 152, 245, 0.15);
+    box-shadow: 0px 4px 75px 0px rgba(255, 255, 255, 0.73) inset;
+  }
+  &__icon {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 129px;
+    height: 129px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &__title {
+    color: var(--2898-f-5, #2898f5);
+    font-size: 36px;
+
+    font-weight: 400;
+  }
+  &__descr {
+    color: var(--2898-f-5, #2898f5);
+    line-height: 150%;
+    margin-top: 25px;
+    font-size: 18px;
+  }
+  &__agency {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 180px;
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--2898-f-5, #2898f5);
+    font-size: 32px;
+  }
+  &__item {
+    padding: 30px 40px 20px 40px;
+    max-width: 790px;
+    height: 150px;
+    border-radius: 40px;
+    background: rgba(40, 152, 245, 0.15);
+    box-shadow: 0px 4px 75px 0px rgba(255, 255, 255, 0.73) inset;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+  &__number {
+    color: var(--2898-f-5, #2898f5);
+    font-size: 96px;
+  }
+  &__descr {
+    color: var(--2898-f-5, #2898f5);
+
+    font-size: 20px;
+  }
+}
+.full-service {
+  margin-left: 20px;
+  padding: 50px;
+  max-width: 790px;
+  height: 790px;
+  border-radius: 65px;
+  background: radial-gradient(
+      77.62% 77.62% at 3.36% 85.16%,
+      #10e8f5 0%,
+      rgba(16, 232, 245, 0) 100%
+    ),
+    radial-gradient(
+      88.4% 88.4% at 93.99% 23.32%,
+      #6f42ef 0%,
+      rgba(219, 20, 236, 0) 100%
+    ),
+    #27aaf4;
+  box-shadow: 0px 4px 196px 0px rgba(255, 255, 255, 0.36) inset;
+
+  &__title {
+    color: var(--ffffff, #fff);
+    font-family: HeliosExtC;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  &__descr {
+    color: var(--ffffff, #fff);
+    line-height: 150%;
+    font-size: 20px;
+  }
+}
+
+.medicine {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 690px;
+  height: 223px;
+  border-radius: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 30px 30px 40px 30px;
+
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--ffffff, #fff);
+    font-size: 24px;
+  }
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__number {
+    color: var(--ffffff, #fff);
+    font-size: 16px;
+    border-radius: 18.854px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    position: relative;
+
+    span {
+      font-size: 16px;
+      position: absolute;
+      display: block;
+      width: 130px;
+      top: -25px;
+      left: 0;
+    }
+  }
+}
+.line {
+  height: 1px;
+  opacity: 0.1;
+  background: #fff;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}

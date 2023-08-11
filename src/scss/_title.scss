@@ -20,4 +20,17 @@
       border: 2px solid var(--ffffff, #fff);
     }
   }
+
+  &_blue {
+    padding-top: 180px;
+    font-size: 72px;
+    span {
+      display: inline-block;
+      margin-top: 2px;
+      color: var(--2898-f-5, #2898f5);
+      border: 2px solid var(--2898-f-5, #2898f5);
+      border-radius: 49.5px;
+      padding: 11px 30px;
+    }
+  }
 }

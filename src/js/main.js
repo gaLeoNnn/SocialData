@@ -82,3 +82,57 @@ btnRight.addEventListener("click", () => {
 btnLeft.addEventListener("click", () => {
   swiper.slidePrev();
 });
+
+class advantagesCards {
+  constructor(src, parentSelector, title, descr) {
+    this.src = src;
+    this.parentSelector = document.querySelector(parentSelector);
+    this.title = title;
+    this.descr = descr;
+  }
+
+  render() {
+    const div = document.createElement("div");
+    div.classList.add("advantages__item");
+    div.innerHTML = `<div class="advantages__icon"><img src="${this.src}" alt=""></div>
+            <div class="advantages__content">
+              <div class="advantages__title">${this.title}</div>
+              <div class="advantages__descr">
+              ${this.descr}
+              </div>
+            </div>
+          </div>`;
+
+    this.parentSelector.append(div);
+  }
+}
+new advantagesCards(
+  "./img/inst.svg",
+  ".advantages__column",
+  "Популярные соцсети",
+  "Все самые популярные соцсети в одном месте"
+).render();
+new advantagesCards(
+  "./img/rocket.svg",
+  ".advantages__column",
+  "Быстрый запуск",
+  "Рекламная кампания за 24 часа"
+).render();
+new advantagesCards(
+  "./img/guard.svg",
+  ".advantages__column",
+  "Официально / ЭДО",
+  "Оплата по счету, договор и все закрывающие документы по ЭДО"
+).render();
+new advantagesCards(
+  "./img/aim.svg",
+  ".advantages__column",
+  "Точный таргетинг",
+  "Максимальный охват именно вашей целевой аудитории"
+).render();
+new advantagesCards(
+  "./img/tor.svg",
+  ".advantages__column",
+  "Закон о рекламе",
+  "Соблюдение нового закона о рекламе и сдача отчетности"
+).render();
