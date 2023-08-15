@@ -1,0 +1,17 @@
+.scrin {
+  margin-top: 20px;
+  position: relative;
+  .main-scrin {
+    position: relative;
+    z-index: 1;
+  }
+  .shadow {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  &_analyze {
+    margin-top: 0;
+    position: relative;
+  }
+}

@@ -79,20 +79,6 @@
   }
 }
 
-.img-scrin {
-  position: relative;
-  img {
-    width: 100%;
-    // height: 100%;
-    object-fit: cover;
-  }
-}
-.shadow-scrin {
-  position: absolute;
-  top: 0;
-  left: 10px;
-  z-index: -1;
-}
 .rectangle {
   padding-left: 20px;
   padding-top: 10px;
@@ -141,4 +127,21 @@
 }
 .burger {
   display: none;
+}
+.img-scrin {
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.shadow-scrin {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  z-index: -1;
 }

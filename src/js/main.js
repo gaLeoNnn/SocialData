@@ -136,3 +136,31 @@ new advantagesCards(
   "Закон о рекламе",
   "Соблюдение нового закона о рекламе и сдача отчетности"
 ).render();
+
+var swiperTwo = new Swiper(".mySwiperTwo", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    540: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    900: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    1060: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+  },
+});

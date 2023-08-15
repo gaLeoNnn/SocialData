@@ -1,0 +1,109 @@
+.plans {
+  &__content {
+    // display: flex;
+    // justify-content: space-between;
+    // gap: 20px;
+  }
+}
+.plans-menu {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-top: 76px;
+  &__item {
+    color: var(--2898-f-5, #2898f5);
+    font-size: 24px;
+  }
+  .bold {
+    font-size: 40px;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 200px;
+      height: 3px;
+      bottom: -25px;
+      left: 0;
+      background: #2898f5;
+    }
+  }
+}
+.plans-submenu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &__item {
+    color: var(--182149, #182149);
+    border-radius: 25.5px;
+    border: 1px solid var(--182149, #182149);
+    font-size: 20px;
+    padding: 13px 18px;
+  }
+}
+.black {
+  color: var(--ffffff, #fff);
+  background: var(--182149, #182149);
+}
+.second-line {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  max-width: 1155px;
+  opacity: 0.2;
+  background: #2898f5;
+  height: 2px;
+}
+.medicine {
+  &_green {
+    padding: 50px 30px 40px 30px;
+    border-radius: 60px;
+    background: var(
+      --0-db-7-ad-2-paints,
+      radial-gradient(
+        88.4% 88.4% at 93.99% 23.32%,
+        #05c7d6 0%,
+        rgba(5, 160, 172, 0) 100%
+      ),
+      #0db7ad
+    );
+
+    box-shadow: 0px 4px 200px 0px rgba(255, 255, 255, 0.4) inset;
+    width: 560px;
+    height: 470px;
+  }
+  &__inner {
+    margin-top: 41px;
+    display: flex;
+    gap: 86px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: var(--ffffff, #fff);
+    font-size: 16px;
+  }
+  &_orange {
+    padding: 50px 30px 40px 30px;
+    border-radius: 60px;
+    width: 560px;
+    height: 470px;
+    background: #e38567;
+    box-shadow: 0px 4px 200px 0px rgba(255, 255, 255, 0.5) inset;
+  }
+  &_blue {
+    padding: 50px 30px 40px 30px;
+    border-radius: 60px;
+    width: 560px;
+    height: 470px;
+    border-radius: 60px;
+    background: radial-gradient(
+        88.4% 88.4% at 93.99% 23.32%,
+        #6f42ef 0%,
+        rgba(219, 20, 236, 0) 100%
+      ),
+      #14a2f2;
+    box-shadow: 0px 4px 200px 0px rgba(255, 255, 255, 0.5) inset;
+  }
+}

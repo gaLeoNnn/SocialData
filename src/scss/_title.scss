@@ -33,4 +33,44 @@
       padding: 11px 30px;
     }
   }
+  &_rep {
+    color: var(--ffffff, #fff);
+    text-align: center;
+    margin: 0 auto;
+  }
+  &_analyze {
+    position: relative;
+    z-index: 1;
+    color: var(--ffffff, #fff);
+    max-width: 1088px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 127%;
+
+    // &::before {
+    //   content: "";
+    //   position: absolute;
+    //   background-image: url("../img/analyze-like.svg");
+    //   background-repeat: no-repeat;
+    //   background-size: cover;
+    //   width: 100px;
+    //   height: 100px;
+    //   top: 200px;
+    //   left: -120px;
+    // }
+    span {
+      color: var(--ffffff, #fff);
+      border-radius: 49.5px;
+      padding: 5px 5px;
+      border: 2px solid var(--ffffff, #fff);
+    }
+  }
+  &_plans {
+    padding-top: 181px;
+    span {
+      border: 2px solid var(--2898-f-5, #2898f5);
+      border-radius: 49.5px;
+      padding: 8px 8px;
+    }
+  }
 }
