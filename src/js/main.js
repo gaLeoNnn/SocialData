@@ -146,16 +146,13 @@ var swiperTwo = new Swiper(".mySwiperTwo", {
   },
 
   breakpoints: {
-    320: {
+    360: {
       slidesPerView: 1,
       spaceBetween: 10,
     },
-    540: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
+
     900: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 20,
     },
     1060: {

@@ -10,6 +10,7 @@
   align-items: center;
   gap: 80px;
   margin-top: 76px;
+
   &__item {
     color: var(--2898-f-5, #2898f5);
     font-size: 24px;
@@ -17,6 +18,7 @@
   .bold {
     font-size: 40px;
     position: relative;
+
     &::after {
       content: "";
       position: absolute;
@@ -46,8 +48,8 @@
   background: var(--182149, #182149);
 }
 .second-line {
-  margin-top: 24px;
   margin-bottom: 40px;
+  margin-top: 20px;
   max-width: 1155px;
   opacity: 0.2;
   background: #2898f5;

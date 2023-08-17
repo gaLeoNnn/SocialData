@@ -1,11 +1,53 @@
 .first-column {
   max-width: 840px;
-  min-height: 757px;
+  height: 757px;
   border-radius: 65px;
   border: 1px solid rgba(40, 152, 245, 0.08);
   background: rgba(40, 152, 245, 0.17);
   box-shadow: 0px 4px 250px 0px #fff inset;
   position: relative;
+  .first-column_plans__title {
+    color: var(--ffffff, #fff);
+  }
+  .first-column_plans__descr {
+    color: var(--ffffff, #fff);
+    span {
+      color: var(--ffffff, #fff);
+    }
+  }
+  .first-column__list_color {
+    color: var(--ffffff, #fff);
+    span {
+      color: var(--ffffff, #fff);
+    }
+  }
+  &_help {
+    flex: 1 1 33%;
+    // max-width: 850px;
+    height: 582px;
+    flex-shrink: 1;
+  }
+  &_plans {
+    flex: 1 1 33%;
+    // max-width: 850px;
+    height: 582px;
+    border-radius: 65px;
+    border: none;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background: radial-gradient(
+        77.62% 77.62% at 3.36% 85.16%,
+        rgba(16, 204, 245, 0.6) 0%,
+        rgba(16, 232, 245, 0) 100%
+      ),
+      radial-gradient(
+        88.4% 88.4% at 93.99% 23.32%,
+        #6f42ef 0%,
+        rgba(219, 20, 236, 0) 100%
+      ),
+      #27aaf4;
+    box-shadow: 0px 4px 100px 0px rgba(255, 255, 255, 0.4) inset;
+    color: var(--ffffff, #fff);
+  }
   &_brend {
     background-color: white;
     border: 2px solid var(--2898-f-5, #2898f5);
@@ -95,7 +137,7 @@
       color: var(--2898-f-5, #2898f5);
       margin-right: 15px;
       font-size: 16px;
-      width: 40px;
+      min-width: 40px;
       height: 40px;
       display: flex;
       align-items: center;

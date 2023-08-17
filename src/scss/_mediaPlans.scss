@@ -1,0 +1,140 @@
+@media (max-width: 1680px) {
+  .plans-menu {
+    overflow-x: hidden;
+
+    &__item {
+      font-size: 20px;
+    }
+    .bold {
+      font-size: 36px;
+    }
+  }
+
+  .plans-submenu {
+    &__item {
+      font-size: 18px;
+    }
+  }
+  .medicine {
+    &__item {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 1320px) {
+  .bold {
+    &::after {
+      display: none;
+    }
+  }
+  .plans-menu {
+    &__item {
+      font-size: 16px;
+    }
+    .bold {
+      font-size: 32px;
+    }
+  }
+
+  .plans-submenu {
+    &__item {
+      font-size: 14px;
+    }
+  }
+  .medicine {
+    &__item {
+      font-size: 12px;
+    }
+    &_green {
+      padding: 44px 20px 30px 20px;
+    }
+    &_blue {
+      padding: 44px 20px 30px 20px;
+    }
+    &_orange {
+      padding: 44px 20px 30px 20px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .plans-submenu {
+    display: none;
+  }
+  .title {
+    &_plans {
+      padding-top: 80px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .title {
+    &_plans {
+      font-size: 24px;
+      span {
+        padding: 5px 7px;
+      }
+    }
+  }
+  .plans {
+    &__content {
+      margin-top: 20px;
+      padding-bottom: 50px;
+    }
+  }
+  .plans-menu {
+    gap: 15px;
+    margin-top: 15px;
+    &__item {
+      font-size: 14px;
+    }
+    .bold {
+      font-size: 20px;
+    }
+  }
+  .plans-submenu {
+    &__item {
+      font-size: 14px;
+    }
+  }
+  .medicine {
+    &__item {
+      font-size: 12px;
+      font-size: 10px;
+      img {
+        width: 22px;
+        height: 22px;
+      }
+    }
+    &__inner {
+      margin-top: 20px;
+    }
+    &_green {
+      border-radius: 25px;
+      height: 259px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    &_blue {
+      border-radius: 25px;
+      height: 259px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    &_orange {
+      border-radius: 25px;
+      height: 259px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+  .btn-link {
+    &_medicine {
+      margin-top: 4px;
+    }
+  }
+  .second-line {
+    margin-bottom: 20px;
+  }
+}
