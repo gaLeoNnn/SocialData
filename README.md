@@ -17,4 +17,4 @@ The person was informed that I don't have much experience. but he was fine with 
 
 ---
 
-## **Deployment:** [Click here]([https://uber-partner.vercel.app/](https://galeonnn.github.io/SocialData/src/)https://galeonnn.github.io/SocialData/src/)
+## **Deployment:** [Click here](https://galeonnn.github.io/SocialData/src/)
